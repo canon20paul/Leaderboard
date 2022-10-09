@@ -14,16 +14,19 @@
         <header>
             <h1>Leaderboard</h1>
         </header>
+        <div class="board">
         <div class="score">
             <div class="score-board-header"><h2>Recent Scores</h2><input type="button" id="RefreshBtn" value="Refresh"></div>
-            <div class="scores"></div>
+            <div id="scores"></div>
         </div>
         <div class="score-form">
             <div class="score-form-header"><h2>Add Your Score</h2></div>
             <form action="post" id="score-form">
                <label for="names"> <input type="text" id="names" placeholder="Your Name">
-               <label for="scoressTXT"> <input type="text" id="scoresTXT" placeholder="Your Scores">
+               <label for="scoressTXT"> <input type="text" id="scoresTXT" placeholder="Your Scores"><br>
+                <input type="button" class="" id="btnAdd" value="Sumit">
             </form>
+        </div>
         </div>
     </main>
 
