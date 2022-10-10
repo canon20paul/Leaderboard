@@ -1,5 +1,5 @@
 
-import { Board } from '/index.js'; // Module is evaluated!
+import { Board } from './index.js'; // Module is evaluated!
 
 const scoresBoard = document.getElementById('scores');
 const displayScores = () => {

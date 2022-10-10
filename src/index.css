@@ -7,14 +7,14 @@
 }
 
 body {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
   font-family: "Itim", sans-serif;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  }
+}
 
 main {
   width: 100%;
@@ -24,15 +24,13 @@ main {
   flex-flow: column;
   justify-content: space-around;
   align-items: center;
-  border: red solid 3px;
 }
 
 .board {
   width: 90%;
-   height: 80%;
+  height: 80%;
   display: flex;
   justify-content: space-between;
-  
 }
 
 header {
@@ -98,16 +96,16 @@ h1 {
 }
 
 #score-form {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
 #scoresTXT,
 #names {
-    margin-bottom: 15px;
-    border: #000 solid 2px;
-    box-shadow: 1px 1px 1px 1px #000;
+  margin-bottom: 15px;
+  border: #000 solid 2px;
+  box-shadow: 1px 1px 1px 1px #000;
 }
