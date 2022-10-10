@@ -35,7 +35,6 @@ main {
 
 header {
   width: 95%;
-  height: 20%;
   margin: auto;
   height: auto;
   display: flex;
@@ -67,6 +66,7 @@ h1 {
 
 #RefreshBtn,
 #btnAdd {
+  /* stylelint-disable-next-line csstree/validator */
   height: fit-content;
   width: 4rem;
   margin: auto;

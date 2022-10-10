@@ -1,9 +1,8 @@
-
 import { Board } from './index.js'; // Module is evaluated!
 
 const scoresBoard = document.getElementById('scores');
 const displayScores = () => {
-  scoresBoard.innerHTML = ''
+  scoresBoard.innerHTML = '';
   // Boards.timeDisplay()
   Board.forEach((score, i) => {
     scoresBoard.innerHTML += ` 
@@ -11,5 +10,5 @@ const displayScores = () => {
            <span class="scores-span">${Board[i].scores}</span></div>
       `;
   });
-}
+};
 export default displayScores;
