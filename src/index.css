@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Itim", sans-serif;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  max-width: 768px;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.board {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  width: 95%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+h1 {
+  width: 30%;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.score {
+  width: 45%;
+}
+
+.score-form {
+  width: 35%;
+  margin-right: 10%;
+  text-align: right;
+}
+
+.score-board-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+#RefreshBtn,
+#btnAdd {
+  /* stylelint-disable-next-line csstree/validator */
+  height: fit-content;
+  width: 4rem;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #000;
+  font-family: "Itim", sans-serif;
+}
+
+#scores {
+  width: 100%;
+  border: #000 solid 3px;
+}
+
+.record:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.record:nth-child(even) {
+  background-color: #fff;
+}
+
+.score-form-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+#score-form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#scoresTXT,
+#names {
+  margin-bottom: 15px;
+  border: #000 solid 2px;
+  box-shadow: 1px 1px 1px 1px #000;
+}
