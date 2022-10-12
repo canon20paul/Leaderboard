@@ -8,10 +8,6 @@ export const RefreshData = async () => {
 export const NewScore = async () => {
   const user = document.getElementById('names');
   const score = document.getElementById('scoresTXT');
-  // Error Handling
-  if (score.value === '' || user.value === '') {
-    alert('Feel in both Your Name and Your Score as Required');
-  }
 
   await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ICAC56dlkUBF59kdhDKB/scores/', {
     method: 'POST',
