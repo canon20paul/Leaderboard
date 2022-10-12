@@ -52,9 +52,8 @@ h1 {
 }
 
 .score-form {
-  width: 35%;
+  width: 30%;
   margin-right: 10%;
-  text-align: right;
 }
 
 .score-board-header {
@@ -77,7 +76,7 @@ h1 {
 
 #scores {
   width: 100%;
-  border: #000 solid 3px;
+  border: #000 solid 2px;
 }
 
 .record:nth-child(odd) {
@@ -98,14 +97,17 @@ h1 {
 #score-form {
   width: 100%;
   height: auto;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+  text-align: right;
 }
 
-#scoresTXT,
+#scoresTXT {
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 1px 1px #000;
+}
+
 #names {
-  margin-bottom: 15px;
-  border: #000 solid 2px;
+  width: 100%;
+  margin-bottom: 20px;
   box-shadow: 1px 1px 1px 1px #000;
 }
