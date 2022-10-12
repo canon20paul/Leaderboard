@@ -1,6 +1,7 @@
 import './index.css';
 import {displayScores} from './display.js';
 import {NewScore} from './scoresAPI.js';
+import swal from 'sweetalert';
 
 window.onload;
 displayScores();
@@ -9,7 +10,7 @@ BtnAddScore.addEventListener('click', () => {
   const user = document.getElementById('names');
   const score = document.getElementById('scoresTXT');
   if (score.value === '' || user.value === '') {
-    Alert('Fill in both Your Name and Your Score as Required');
+    swal("Empty Field/s?", "Fill in both Your Name and Your Score as Required","error");
     user.value = '';
     score.value = '';
   } else {
@@ -22,8 +23,3 @@ const refreshBtn = document.getElementById('RefreshBtn');
 refreshBtn.addEventListener('click', () => {
   window.location.reload();
 });
-
-// //ID FOR THE GAME
-// {
-//   "result": "Game with ID: ICAC56dlkUBF59kdhDKB added."
-// }
