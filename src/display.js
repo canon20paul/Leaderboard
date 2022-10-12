@@ -1,9 +1,10 @@
-import {RefreshData } from './scoresAPI.js';
+import { RefreshData } from './scoresAPI.js';
+
 const scoresBoard = document.getElementById('scores');
-export const displayScores = async() => {
+export const displayScores = async () => {
   scoresBoard.innerHTML = '';
   const Board = await RefreshData();
-  
+
   // Boards.timeDisplay()
   Board.sort((a, b) => b.score - a.score);
   Board.forEach((scores) => {
