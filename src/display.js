@@ -1,5 +1,5 @@
-import { RefreshData } from './scoresAPI.js';
 
+import { RefreshData } from './scoresAPI.js';
 const scoresBoard = document.getElementById('scores');
 export const displayScores = async () => {
   scoresBoard.innerHTML = '';
