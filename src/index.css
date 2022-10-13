@@ -97,7 +97,6 @@ h1 {
 
 .record:nth-child(odd) {
   background-color: #ddd;
-  
   transition: all 1s;
 }
 
