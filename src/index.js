@@ -24,8 +24,9 @@ refreshBtn.addEventListener('click', () => {
 });
 
 setInterval(() => {
-  let date = new Date();
-     let n = date.toDateString();
-     let time = date.toLocaleTimeString();
-         timeDate.innerText =  n + '     ' + time ;  
+  const date = new Date();
+  const timeDate = document.getElementById('timeDate');
+  const n = date.toDateString();
+  const time = date.toLocaleTimeString();
+  timeDate.innerText = `${n}     ${time}`;
 }, 1000);
