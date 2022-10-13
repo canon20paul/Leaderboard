@@ -22,3 +22,10 @@ const refreshBtn = document.getElementById('RefreshBtn');
 refreshBtn.addEventListener('click', () => {
   window.location.reload();
 });
+
+setInterval(() => {
+  let date = new Date();
+     let n = date.toDateString();
+     let time = date.toLocaleTimeString();
+         timeDate.innerText =  n + '     ' + time ;  
+}, 1000);
