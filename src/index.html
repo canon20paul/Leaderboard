@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Leaderboard</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Leaderboard</h1>
+            <h4 id="timeDate"></h4>
+        </header>
+        
+        <div class="board">
+        <div class="score">
+            <div class="score-board-header"><h2>Recent Scores</h2><h3 id="counter" title="Scores"></h3><input type="button" id="RefreshBtn" value="Refresh"></div>
+            <div id="scores"></div>
+        </div>
+        <div class="score-form">
+            <div class="score-form-header"><h2>Add Your Score</h2></div>
+            <form action="post" id="score-form">
+               <label for="names"></label> <input type="text" id="names" placeholder="Your Name">
+               <label for="scoressTXT"></label> <input type="text" id="scoresTXT" placeholder="Your Scores"><br>
+                <input type="button" class="btnAdd" id="btnAdd" value="Submit">
+            </form>
+        </div>
+        </div>
+    </main>
+
+<script src="main.js"></script>
+    </body>
+    </html>
