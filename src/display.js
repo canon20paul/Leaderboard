@@ -1,14 +1,15 @@
-import {Board}  from './index.js'; // Module is evaluated!
+import { RefreshData } from './scoresAPI.js';
 
 const scoresBoard = document.getElementById('scores');
-const displayScores = () => {
+export const displayScores = async () => {
   scoresBoard.innerHTML = '';
+  const Board = await RefreshData();
+
   // Boards.timeDisplay()
-  Board.forEach((score, i) => {
+  Board.sort((a, b) => b.score - a.score);
+  Board.forEach((scores) => {
     scoresBoard.innerHTML += ` 
-          <div class='record'><span class="names-span">${Board[i].names}:</span>
-           <span class="scores-span">${Board[i].scores}</span></div>
-      `;
+    <div class='record'><span class="names-span">${scores.user}:</span>
+    <span class="scores-span">${scores.score}</span></div>`;
   });
 };
-export default displayScores;
