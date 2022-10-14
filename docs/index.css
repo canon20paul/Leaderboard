@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Itim", sans-serif;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  max-width: 768px;
+  height: 90vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.board {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  width: 95%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+h1 {
+  width: 30%;
+  font-family: 'Faster One', cursive;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.score {
+  width: 45%;
+}
+
+.score-form {
+  width: 30%;
+  margin-right: 10%;
+}
+
+.score-board-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+#timeDate {
+  width: 30%;
+  margin-left: 3%;
+  margin-bottom: 0;
+  margin-top: 5%;
+}
+
+#counter {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  align-self: center;
+  background-color: #000;
+  color: #ddd;
+  border-radius: 50%;
+  padding: 5px 5px;
+}
+
+#RefreshBtn,
+#btnAdd {
+  /* stylelint-disable-next-line csstree/validator */
+  height: fit-content;
+  width: 4rem;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #000;
+  font-family: "Itim", sans-serif;
+  transition: all 0.4s;
+}
+
+.record:nth-child(odd) {
+  background-color: #ddd;
+  transition: all 1s;
+}
+
+.record:nth-child(even) {
+  background-color: #fff;
+  /* stylelint-disable-next-line csstree/validator */
+  transform: rotateY(40deg) skewX(-20deg) translateY((-3rem));
+  transition: all 1s;
+}
+
+.score-form-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.record:hover {
+  font-size: 20px;
+  text-align: center;
+  color: #955;
+  margin-left: 25px;
+  margin-right: -25px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px 6px #000;
+}
+
+#score-form {
+  width: 100%;
+  height: auto;
+  text-align: right;
+}
+
+#scoresTXT {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 0;
+  outline: none;
+  transition: all 1s;
+}
+
+#names {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 0;
+  outline: none;
+  transition: all 1s;
+}
+
+#names:focus {
+  font-size: 20px;
+}
+
+#scoresTXT:focus {
+  font-size: 20px;
+}
+
+#RefreshBtn:hover {
+  box-shadow: 3px 3px 3px 3px #000;
+  /* stylelint-disable-next-line csstree/validator */
+  transform: rotateY(40deg) skewX(-20deg) translateY((-3rem));
+}
+
+#btnAdd:hover {
+  box-shadow: 3px 3px 3px 3px #000;
+  /* stylelint-disable-next-line csstree/validator */
+  transform: rotateY(40deg) skewX(-20deg) translateY((-3rem));
+}
