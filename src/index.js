@@ -31,8 +31,7 @@ setInterval(() => {
   timeDate.innerText = `${n}     ${time}`;
 }, 1000);
 
-const position = document.querySelectorAll("record");
-alert(position.innerHTML)
+// const position = document.querySelectorAll('record');
 
 // position.forEach(score, i) => {
 //     setTimeout(() => {
@@ -41,4 +40,3 @@ alert(position.innerHTML)
 //     counter.innerHTML = `${i}`;
 //     }, 10000);
 // })}
-

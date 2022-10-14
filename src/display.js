@@ -1,5 +1,6 @@
-
+/* eslint-disable import/prefer-default-export */
 import { RefreshData } from './scoresAPI.js';
+
 const scoresBoard = document.getElementById('scores');
 
 export const displayScores = async () => {
