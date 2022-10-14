@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/canon20paul/Leaderboard#readme",
   "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
     "eslint": "^7.32.0",
@@ -38,10 +40,14 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-middleware": "^5.3.3",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.11.1",
+    "webpack-watch-time-plugin": "^0.3.0"
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "lodash": "^4.17.21",
-    "sweetalert": "^2.1.2"
+    "sweetalert": "^2.1.2",
+    "yarn": "^1.22.19"
   }
 }

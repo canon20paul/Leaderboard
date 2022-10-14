@@ -22,3 +22,21 @@ const refreshBtn = document.getElementById('RefreshBtn');
 refreshBtn.addEventListener('click', () => {
   window.location.reload();
 });
+
+setInterval(() => {
+  const date = new Date();
+  const timeDate = document.getElementById('timeDate');
+  const n = date.toDateString();
+  const time = date.toLocaleTimeString();
+  timeDate.innerText = `${n}     ${time}`;
+}, 1000);
+
+// const position = document.querySelectorAll('record');
+
+// position.forEach(score, i) => {
+//     setTimeout(() => {
+//     score.addEventListener('click', ()=> {
+//     counter = document.getElementById('counter');
+//     counter.innerHTML = `${i}`;
+//     }, 10000);
+// })}
