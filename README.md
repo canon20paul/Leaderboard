@@ -13,7 +13,7 @@
 - vscode
 - Github
 
-## Live Demo (if available)
+## Live Demo 
 
 [Live Demo Link](https://canon20paul.github.io/Leaderboard)
 
