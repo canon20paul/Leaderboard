@@ -30,3 +30,15 @@ setInterval(() => {
   const time = date.toLocaleTimeString();
   timeDate.innerText = `${n}     ${time}`;
 }, 1000);
+
+const position = document.querySelectorAll("record");
+alert(position.innerHTML)
+
+// position.forEach(score, i) => {
+//     setTimeout(() => {
+//     score.addEventListener('click', ()=> {
+//     counter = document.getElementById('counter');
+//     counter.innerHTML = `${i}`;
+//     }, 10000);
+// })}
+

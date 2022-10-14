@@ -81,6 +81,7 @@ h1 {
   background-color: #000;
   color: #ddd;
   border-radius: 50%;
+  padding: 5px 5px;
 }
 
 #RefreshBtn,
@@ -135,7 +136,7 @@ h1 {
   margin-bottom: 20px;
   border: 0;
   outline: none;
-  box-shadow: 10px 3px 1px 1px #000;
+  /* box-shadow: 10px 3px 1px 1px #000; */
   transition: all 1s;
 }
 
@@ -144,7 +145,7 @@ h1 {
   margin-bottom: 20px;
   border: 0;
   outline: none;
-  box-shadow: 10px 3px 1px 1px #000;
+  /* box-shadow: 10px 3px 1px 1px #000; */
   transition: all 1s;
 }
 
