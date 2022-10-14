@@ -1,9 +1,9 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leaderboard
+# Leaderboard Application
 
-> A simple Leaderboard Application Project. An application that can help manage game scores
+>  A simple Leaderboard Application Project. An application that Captures and manages game scores. A Game is  initialized by  pulling an id using an API after  which records are taken and utilized. Asides Html5 and CSS, its Interactions are enhanced with JavaScript and Bundled with webpack.
 ## Built With
 
 - Html
@@ -13,9 +13,9 @@
 - vscode
 - Github
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link]()
+[Live Demo Link](https://canon20paul.github.io/Leaderboard)
 
 
 ## Getting Started
