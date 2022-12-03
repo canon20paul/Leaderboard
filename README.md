@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Application can run on any Browser.
 
-###  A simple to do List Application Project. An application that can help a group or an individual Manage Day to Day tasks in Linear tracking manner. though mainly demonstrating the Usage of Webpack and ES6 Modules
+###  A simple Leaderboard Application Project. An application that Captures and manages game scores. A Game is  initialized by  pulling an id using an API after  which records are taken and utilized. Asides Html5 and CSS, its Interactions are enhanced with JavaScript and Bundled with webpack
 
 ### Application has been tested for error and browser functionality
 
